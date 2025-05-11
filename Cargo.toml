@@ -1,0 +1,14 @@
+[package]
+name = "smbsh-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cidr-utils = "0.6.1"
+clap = { version = "4.5.35", features = ["derive"] }
+futures = "0.3.31"
+ipnetwork = "0.21.1"
+lazy_static = "1.5.0"
+num_cpus = "1.16.0"
+pavao = "0.2.12"
+tokio = { version = "1.44.1", features = ["full"] }
